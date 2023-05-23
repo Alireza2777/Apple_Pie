@@ -14,6 +14,7 @@
 		9FF7B78C2A1CFFD900CFE08B /* Apple_Pie_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7B78A2A1CFFD900CFE08B /* Apple_Pie_2.xcdatamodeld */; };
 		9FF7B78E2A1CFFDA00CFE08B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7B78D2A1CFFDA00CFE08B /* Assets.xcassets */; };
 		9FF7B7912A1CFFDA00CFE08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7B78F2A1CFFDA00CFE08B /* LaunchScreen.storyboard */; };
+		9FF7B79E2A1D0CB100CFE08B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7B79D2A1D0CB100CFE08B /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9FF7B78D2A1CFFDA00CFE08B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF7B7902A1CFFDA00CFE08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FF7B7922A1CFFDA00CFE08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF7B79D2A1D0CB100CFE08B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				9FF7B7812A1CFFD900CFE08B /* AppDelegate.swift */,
 				9FF7B7832A1CFFD900CFE08B /* SceneDelegate.swift */,
 				9FF7B7852A1CFFD900CFE08B /* ViewController.swift */,
+				9FF7B79D2A1D0CB100CFE08B /* Game.swift */,
 				9FF7B7872A1CFFD900CFE08B /* Main.storyboard */,
 				9FF7B78D2A1CFFDA00CFE08B /* Assets.xcassets */,
 				9FF7B78F2A1CFFDA00CFE08B /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FF7B78C2A1CFFD900CFE08B /* Apple_Pie_2.xcdatamodeld in Sources */,
+				9FF7B79E2A1D0CB100CFE08B /* Game.swift in Sources */,
 				9FF7B7862A1CFFD900CFE08B /* ViewController.swift in Sources */,
 				9FF7B7822A1CFFD900CFE08B /* AppDelegate.swift in Sources */,
 				9FF7B7842A1CFFD900CFE08B /* SceneDelegate.swift in Sources */,
@@ -306,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -334,9 +341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
